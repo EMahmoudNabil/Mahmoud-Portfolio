@@ -1,4 +1,44 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,400&display=swap');
+
+body {
+    background-color: rgb(26,27,29);
+    font-family: 'Lato', sans-serif;
+}
+.padding-0 {
+   padding-right: 0;
+   padding-left: 0;
 }
 
+
+.arrows {
+    color: #fff;
+    font-size: 35px;
+}
+
+.left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+
+
+.right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 4%;
+}
+
+.arrows a {
+    color: #fff;
+}
+
+.arrows a:hover {
+    color: rgb(45,136,255);
+}
+
+
+@media only screen and (max-width: 900px)  {
+  .arrows {
+      visibility: hidden;
+  }
+}

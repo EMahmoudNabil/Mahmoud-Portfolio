@@ -1,0 +1,55 @@
+.navbar-sec {
+    width: 100%;
+    background-color: rgb(12, 12, 14); 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 25px 25px;
+    .navbarList {
+        list-style: none;
+        padding-top: 5px;
+        text-align: center;
+        color: #fff;  
+        li {
+            display: inline-block;
+            font-size: 30px; 
+            @media only screen and (max-width: 600px) {
+                display: inline-block;
+                font-size: 20px;
+            }     
+        }
+        a {
+            color: #fff;
+        &:not(:last-child) {
+            margin-right: 50px;    
+        }
+        &:hover {
+            text-decoration: none;
+        }
+        @media only screen and (max-width: 600px) {
+            &:not(:last-child) {
+                margin-right: 30px;
+              }
+            &:not(:first-child) {
+                margin-right: 25px;
+            }
+        }
+        } 
+        
+        .active {
+            color: rgb(45,136,255);   
+        }  
+     
+    }
+    
+   
+}
+
+
+
+
+
+
+   
+
+

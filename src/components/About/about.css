@@ -1,0 +1,123 @@
+/* rgb(85,10,115)*/
+.about-section {
+    margin-top: 30px;
+    animation: about .8s normal;
+    transition: all .8s ease-in-out;
+   
+}
+
+.about-section .about-me {
+    color:#fff;
+    
+}
+.about-section .about-me button {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.about-section .Education  {
+    margin-top: 50px;
+    color: #fff;
+    
+
+}
+.about-section .Education h5 span {
+    color:rgb(45,136,255);
+}
+
+
+.skllis h2 {
+    color: #fff;
+    margin-left: 45px;
+    
+}
+
+.skllis .skills-content ul {
+    list-style: none;
+    
+}
+.skllis .skills-content li {
+   padding: 20px;
+   display: inline-block;
+}
+.skllis .html {
+    color: rgb(230,76,24);
+}
+
+.skllis .css {
+    color: rgb(0,112,186);
+}
+.skllis .bootstrap {
+    color: rgb(103,58,183);
+}
+.skllis .sass {
+    color: rgb(205,103,153);
+}
+.skllis .js {
+    color: rgb(240,219,79);
+}
+.skllis .react {
+    color: rgb(0,215,254);
+}
+.skllis .next-js {
+    font-weight: 200;
+    font-size: 30px;
+    color: #fff;
+    pointer-events: none;
+}
+.skllis .next-js span {
+    font-size: 10px;
+}
+.skllis .github {
+    color: #fff;
+}
+.skllis .vue {
+    color: #41B883;
+}
+.skllis .angular {
+    color: #B52E31;
+}
+.skllis .bitbucket {
+    color: #2684FF;
+}
+
+
+
+
+@keyframes about {
+    0% {
+        transform: translatex(-900px);
+        opacity: 0;
+    }
+
+    80% {
+        transform: translatex(50px);
+        opacity: .6;
+
+    }
+
+    100% {
+        transform: translatex(0px);
+        opacity: 1;
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+     h2 {
+        margin-left: 45%;
+        text-align: center;
+        color: #fff;
+        margin-left: 0px;
+        margin-top: 50px;
+        
+    }
+    button{
+        margin-left: 35%;
+        text-align: center;
+    }
+    
+
+}

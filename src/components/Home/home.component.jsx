@@ -6,6 +6,7 @@ import './home.styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebook,faWhatsapp,faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import cv from "../../assets/CV.pdf";
+import RightArrow from '../arrows/rightArrow';
 
 export const Home = () => {
   return (
@@ -49,10 +50,9 @@ export const Home = () => {
             </ul>
                   
         <div className="arrows">
-            <div className="right-arrow">
-                <Link to="/about"> <i className="fas fa-arrow-right"></i> </Link>
-            </div>
+            <RightArrow link="/about" />
         </div>
+        
         <div className="profile-footer">
                 <a href={cv} download={true}>Download CV</a>
         </div>
